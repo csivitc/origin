@@ -71,9 +71,9 @@ export default function FaqSection() {
                 <AnimatePresence>
                   {isOpen && (
                     <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} transition={{ duration: 0.2 }} className="overflow-hidden">
-                      <div className="pb-4 md:pb-6 px-4 md:px-8 pt-0 font-mono-custom text-[10px] md:text-xs text-[#FF4D1C]/80 flex items-center gap-2">
-                        <span>[ STATUS: RESOLVED ]</span>
-                        <span className="text-[#8A8A8A]">• CLICK TO COLLAPSE</span>
+                      <div className="pb-4 md:pb-6 px-4 md:px-8 pt-0 flex flex-col gap-2">
+                        <p className="font-body-custom text-[11px] md:text-sm text-[#F2F0EB]/80 leading-relaxed">{faq.answer}</p>
+                        <span className="font-mono-custom text-[9px] md:text-[10px] text-[#8A8A8A] tracking-widest">• CLICK TO COLLAPSE</span>
                       </div>
                     </motion.div>
                   )}
