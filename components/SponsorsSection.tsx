@@ -11,10 +11,10 @@ export default function SponsorsSection() {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const spotlightCards = [
-    { num: '01', title: 'TITLE SPONSOR', subtitle: 'STITCH', logo: '/assets/stitch.png', asciiVariant: 'dragonfly' as const, btnLabel: 'VIEW', link: '#', isPrimaryOrange: false },
-    { num: '02', title: 'POWERED BY', subtitle: 'ELEVENLABS', logo: '/assets/eleven-labs.png', asciiVariant: 'globe' as const, btnLabel: 'VIEW', link: '#', isPrimaryOrange: false },
-    { num: '03', title: 'TOOLING PARTNER', subtitle: 'CODECRAFTERS', logo: '/assets/code_crafters.png', asciiVariant: 'matrix' as const, btnLabel: 'VIEW', link: '#', isPrimaryOrange: false },
-    { num: '04', title: 'INFRASTRUCTURE', subtitle: 'NEXUS', logo: '/assets/nexusx.jpeg', asciiVariant: 'dots' as const, btnLabel: 'VIEW', link: '#', isPrimaryOrange: false },
+    { num: '01', title: 'TITLE SPONSOR', subtitle: 'STITCH', logo: '/assets/stitch.png', asciiVariant: 'dragonfly' as const, btnLabel: 'VIEW', link: 'https://www.stitch.co/', isPrimaryOrange: false },
+    { num: '02', title: 'POWERED BY', subtitle: 'ELEVENLABS', logo: '/assets/eleven-labs.png', asciiVariant: 'globe' as const, btnLabel: 'VIEW', link: 'https://elevenlabs.io/', isPrimaryOrange: false },
+    { num: '03', title: 'TOOLING PARTNER', subtitle: 'CODECRAFTERS', logo: '/assets/code_crafters.png', asciiVariant: 'matrix' as const, btnLabel: 'VIEW', link: 'https://codecrafters.io/', isPrimaryOrange: false },
+    { num: '04', title: 'INFRASTRUCTURE', subtitle: 'NEXUS', logo: '/assets/nexusx.jpeg', asciiVariant: 'dots' as const, btnLabel: 'VIEW', link: 'https://www.nexusxpos.com/', isPrimaryOrange: false },
   ];
 
   useEffect(() => {
