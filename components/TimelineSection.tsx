@@ -52,7 +52,7 @@ const timelineData = [
     ),
   },
   {
-    title: "17 Aug",
+    title: "27 Aug",
     content: (
       <div>
         <h4 className="font-display text-2xl mb-2 text-[#F2F0EB] uppercase">Vit chennai EventHub Registration</h4>
@@ -63,7 +63,7 @@ const timelineData = [
     ),
   },
   {
-    title: "18 Aug",
+    title: "28 Aug",
     content: (
       <div>
         <h4 className="font-display text-2xl mb-2 text-[#F2F0EB] uppercase">Check-in, Inauguration & Hackathon Kickoff</h4>
@@ -74,7 +74,7 @@ const timelineData = [
     ),
   },
   {
-    title: "18 Aug – 19 Aug",
+    title: "28 Aug – 29 Aug",
     content: (
       <div>
         <h4 className="font-display text-2xl mb-2 text-[#F2F0EB] uppercase">24-Hour Offline Hackathon</h4>
