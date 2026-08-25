@@ -85,7 +85,7 @@ const timelineData = [
     ),
   },
   {
-    title: "19 Aug",
+    title: "29 Aug",
     content: (
       <div>
         <h4 className="font-display text-2xl mb-2 text-[#F2F0EB] uppercase">Final Presentations & Prize Distribution</h4>
