@@ -12,8 +12,7 @@ const TRACK_DETAILS: Record<string, string> = {
   'Agentic Finance': 'Must demonstrate Reason → Plan → Act, execute at least one meaningful financial action, and include appropriate human oversight or safety mechanisms. Simple AI chatbots do not qualify.',
   'Web3 & DeFi': 'Must include meaningful on-chain financial logic and address relevant security, trust, or economic considerations. Wallet/token-only projects do not qualify.',
   'Supply Chain Finance': 'Must involve at least 3 stakeholders and demonstrate a meaningful financial decision, optimization, or risk assessment. Simple invoice/OCR solutions do not qualify.',
-  'FinSec & Cyber Finance': 'Must demonstrate Threat → Detection → Response, using simulated, public, or authorized data. Simple fraud-classification models do not qualify.',
-  'Open Innovation in FinTech': 'The solution must address a meaningful financial problem, demonstrate a clear innovation beyond existing solutions, and deliver a functional end-to-end prototype. Generic applications, basic CRUD systems, or simple API/LLM wrappers do not qualify.'
+  'FinSec & Cyber Finance': 'Must demonstrate Threat → Detection → Response, using simulated, public, or authorized data. Simple fraud-classification models do not qualify.'
 };
 
 export default function InteractiveModals({
